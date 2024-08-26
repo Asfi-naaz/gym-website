@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness</title>
+    <!-- <link rel="stylesheet"href="css/style.css"> -->
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="css/style.css">
+<style>
+    body{
+        margin:0;
+        padding: 0;
+        background: url('img/ai-generated-8665327_640.jpg');
+        background-size: cover;
+        font-family: "Bangers", system-ui;
+        
+    }
+    .left{
+        /* border: 2px solid red; */
+        /* color: blue; */
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        
+
+    }
+    .left div{
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+    .left img{
+        width: 80px;
+        /* filter: invert(100%); */
+
+    }
+    .right{
+        /* border: 2px solid yellow; */
+        color: antiquewhite;
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+
+    }
+    .mid{
+        /* border:2px solid greenyellow; */
+        color: antiquewhite;
+        width: 40%;
+        margin: 20px auto;
+        display: block;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        
+        
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+
+    }
+    .btn{
+        font-family: "Bangers", system-ui;
+        margin: 0 9px;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        margin-top: 12px;
+    }
+    .btn:hover{
+        background-color: rgb(214, 210, 210);
+        color: black;
+    }
+
+    .container{
+        /* <!-- border: 2px solid white; --> */
+        color: white;
+        margin: 106px 80px;
+
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+
+    }
+    .form-group input{
+        font-family: "Bangers", system-ui;
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        margin: 11px auto;
+        border: 2px solid black;
+        font-size: 25px;
+        border-radius: 8px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 74%;
+        margin:20px auto;
+    }
+</style>
+
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="img/images.png"alt="">
+            <!-- <div>asfi fitness</div> -->
+
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#"class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness center</a></li>
+                <li><a href="#">Contact us</a></li>
+                
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1>join the best gym of ranchi now</h1>
+        <form action="nocation.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Gender">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="enter your Locality">
+            </div>
+            <button class="btn">submit</button>
+
+
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
